@@ -11,16 +11,25 @@ PyRay is a simple and easy-to-use Python library for game development and multim
 - **Simple and Intuitive** - Create a window and start drawing in just 3 lines of code
 - **Cross-Platform** - Works on Windows, macOS, Linux, and Web (via Pyodide)
 - **2D Graphics** - Shapes, sprites, text rendering, particle systems
-- **3D Graphics** - Basic 3D shapes, model loading, lighting (coming soon)
+- **3D Graphics** - Basic 3D shapes, model loading, lighting (via Open3D/PyVista)
 - **Input Handling** - Keyboard, mouse, gamepad support
 - **Audio System** - Sound effects and music playback
 - **Physics** - Built-in 2D physics and collision detection
 - **Fast** - Hardware-accelerated rendering
+- **Integrations** - OpenCV, Matplotlib, Jupyter, Open3D, PyVista support
+- **Tools** - Project generator, migration guides, extensive examples
 
 ## 📦 Installation
 
 ```bash
+# Basic installation
 pip install pyray
+
+# With optional integrations
+pip install pyray[opencv]      # Computer vision support
+pip install pyray[matplotlib]  # Data visualization
+pip install pyray[jupyter]     # Jupyter notebook support
+pip install pyray[all]         # Everything
 ```
 
 ## 🎯 Quick Start
@@ -52,11 +61,21 @@ pyray.close_window()
 
 Check out the [examples](examples/) directory for more demos:
 
+**Basic Examples:**
 - [Hello World](examples/01_hello_world.py) - Your first PyRay program
 - [Drawing Shapes](examples/02_drawing_shapes.py) - Drawing various 2D shapes
 - [Input Handling](examples/03_input_handling.py) - Keyboard and mouse input demo
 - [Bouncing Ball](examples/04_bouncing_ball.py) - Simple physics and trails
 - [Pong Game](examples/05_pong.py) - A complete 2-player Pong
+
+**Complete Games:**
+- [Snake](examples/games/snake.py) - Classic snake game with particles
+- [Tetris](examples/games/tetris.py) - Full Tetris with rotation and line clearing
+- [Space Shooter](examples/games/space_shooter.py) - Vertical shooter with power-ups
+
+**Integrations:**
+- [OpenCV Webcam](examples/integrations/opencv_webcam_filters.py) - Real-time video filters
+- [Matplotlib Charts](examples/integrations/matplotlib_live_charts.py) - Live data visualization
 
 ## 🎓 Learning Resources
 
