@@ -62,6 +62,55 @@ setup(
             "moderngl>=5.7.0",
             "PyGLM>=2.5.0",
         ],
+        "opencv": [
+            "opencv-python>=4.9.0",
+        ],
+        "matplotlib": [
+            "matplotlib>=3.8.0",
+        ],
+        "moderngl": [
+            "moderngl>=5.7.0",
+            "PyGLM>=2.5.0",
+        ],
+        "arcade": [
+            "arcade>=3.0.0",
+        ],
+        "pyglet": [
+            "pyglet>=2.0.0",
+        ],
+        "open3d": [
+            "open3d>=0.18.0",
+        ],
+        "pyvista": [
+            "pyvista>=0.43.0",
+        ],
+        "panda3d": [
+            "panda3d>=1.10.0",
+        ],
+        "tiled": [
+            "pytiled-parser>=2.2.0",
+        ],
+        "jupyter": [
+            "ipython>=8.0.0",
+            "ipywidgets>=8.0.0",
+            "imageio>=2.30.0",
+        ],
+        "all": [
+            "opencv-python>=4.9.0",
+            "matplotlib>=3.8.0",
+            "moderngl>=5.7.0",
+            "PyGLM>=2.5.0",
+            "arcade>=3.0.0",
+            "pyglet>=2.0.0",
+            "open3d>=0.18.0",
+            "pyvista>=0.43.0",
+            "panda3d>=1.10.0",
+            "pytiled-parser>=2.2.0",
+            "ipython>=8.0.0",
+            "ipywidgets>=8.0.0",
+            "imageio>=2.30.0",
+            "pydub>=0.25.0",
+        ],
     },
     entry_points={
         "console_scripts": [
