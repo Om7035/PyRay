@@ -1,0 +1,11 @@
+# Core dependencies
+pygame>=2.5.0
+numpy>=1.20.0
+Pillow>=9.0.0
+
+# Optional audio support
+# pydub>=0.25.0
+
+# Optional 3D support (Phase 3)
+# moderngl>=5.7.0
+# PyGLM>=2.5.0
