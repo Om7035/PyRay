@@ -54,15 +54,18 @@ Check out the [examples](examples/) directory for more demos:
 
 - [Hello World](examples/01_hello_world.py) - Your first PyRay program
 - [Drawing Shapes](examples/02_drawing_shapes.py) - Drawing various 2D shapes
-- [Sprite Animation](examples/03_sprite_animation.py) - Animating sprites
-- [Simple Game](examples/04_pong.py) - A complete Pong game in under 100 lines
+- [Input Handling](examples/03_input_handling.py) - Keyboard and mouse input demo
+- [Bouncing Ball](examples/04_bouncing_ball.py) - Simple physics and trails
+- [Pong Game](examples/05_pong.py) - A complete 2-player Pong
 
 ## 🎓 Learning Resources
 
 - [Getting Started Guide](docs/getting-started.md)
-- [API Reference](docs/api-reference.md)
+- [API Reference (Overview)](docs/api-reference.md)
 - [Tutorials](docs/tutorials/)
-- [Video Tutorials](https://youtube.com/@pyray)
+- [Integrations: Jupyter & ML](docs/integrations/jupyter-ml.md)
+- [Deployment Guides](docs/deployment/)
+- [Roadmap](docs/roadmap/README.md)
 
 ## 🤝 Contributing
 
@@ -72,20 +75,16 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ### Phase 1: MVP (Current)
 - ✅ Window management
-- ✅ Basic 2D graphics
-- ✅ Input system
-- 🚧 Sprite loading
-- 🚧 Audio system
+- ✅ Basic 2D graphics (shapes, text)
+- ✅ Input system (keyboard, mouse)
+- ✅ Sprites & images (load/draw textures)
+- ✅ Audio basics (sounds, music)
 
-### Phase 2: Advanced 2D
-- ⏳ Physics engine
-- ⏳ Particle systems
-- ⏳ Advanced animations
+Read full roadmap and plans:
 
-### Phase 3: 3D Support
-- ⏳ 3D rendering
-- ⏳ Model loading
-- ⏳ Lighting system
+- [Phase 2: Advanced 2D & Foundation](docs/roadmap/phase-2.md)
+- [Phase 3: 3D & Advanced](docs/roadmap/phase-3.md)
+- [Phase 4: Ecosystem & Polish](docs/roadmap/phase-4.md)
 
 ## 📄 License
 
